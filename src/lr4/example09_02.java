@@ -7,7 +7,7 @@ public class example09_02 {
         int counter = 1;
         int j;
         for (int i = 0; i < height; i++) {
-            System.out.print("Nomer stroki: " + i + " ");
+            System.out.print("Номер строки: " + i + " ");
             for (j = 0; j < counter; j++) {
                 System.out.print("+");
             }
