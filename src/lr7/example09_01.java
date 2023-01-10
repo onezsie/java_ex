@@ -1,20 +1,5 @@
 package lr7;
 
-class Lab71 {
-    private String str;
-    Lab71(String str) {
-        this.str = str;
-    }
-    @Override
-    public String toString() {
-        String superString;
-        superString = "super" + "\n" + " Class name: " + this.getClass().getSimpleName() + "\n" + " str = " + this.getStr();
-        return superString;
-    }
-    String getStr() {
-        return str;
-    }
-}
 class Lab71_v2 extends Lab71 {
     private String str2;
     Lab71_v2(String str) {
